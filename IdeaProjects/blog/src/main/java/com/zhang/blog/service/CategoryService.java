@@ -3,9 +3,9 @@ package com.zhang.blog.service;
 import com.zhang.blog.utils.PageQueryUtil;
 import com.zhang.blog.utils.PageResult;
 import com.zhang.blog.entity.BlogCategory;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
-
 public interface CategoryService {
     PageResult getBlogCategoryPage(PageQueryUtil pageUtil);
 
